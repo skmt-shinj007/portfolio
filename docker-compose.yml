@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  # Nuxtアプリケーション
+  app:
+    container_name: portfolio_app
+    build: ./docker/app
+    volumes:
+      - ./app:/var/www/app
+    ports:
+      - 3000:3000
+      - 24678:24678
+    stdin_open: true
+    tty: true
+    environment:
+      - HOST=0.0.0.0
+    # command: ['yarn dev']
+
+  # Nginx プロキシサーバー
+  # プロキシサーバーを経由すると接続が上手くいかず一旦断念。
+  # nginx:
+  #   image: nginx:1.19.1
+  #   container_name: portfolio_nginx
+  #   volumes:
+  #     - ./docker/nginx/default.conf:/etc/nginx/nginx.conf:cached
+  #   ports:
+  #     - 3000:80
+  #     - 24678:24678
+  #   depends_on:
+  #     - app
