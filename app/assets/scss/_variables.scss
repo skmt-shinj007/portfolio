@@ -1,0 +1,43 @@
+/**
+ * スタイルで使用する変数を定義します。
+ */
+
+$color: (
+  black      : #1A1A1B,
+  lightbrack : #333F44,
+  mint       : #37AA9C,
+  lightmint  : #94F3E4,
+  lightgray  : #EEEEEE,
+) !default;
+
+$breakpoints: (
+  md: 560,
+  pc: 1025,
+) !default;
+
+$media: (
+  md : 'screen and (min-width: #{map-get($breakpoints, md) - 1}px)',
+  pc : 'screen and (min-width: #{map-get($breakpoints, pc) - 1}px)',
+) !default;
+
+$display: (
+  min : 320px,
+  max : 1920px,
+) !default;
+
+// アスペクト比（基準を100%と想定）
+$aspect: (
+  square    : 100%,  // 1  : 1
+  rectangle : 66.7%, // 3  : 2
+  golden    : 61.8%, // 1  : 1.618
+  wide      : 56%,   // 16 : 9
+);
+
+// ベースとなるフォントサイズ = 16px
+$base-font: 16;
+
+// export variables
+:export {
+  breakpointMd: map-get($breakpoints, md);
+  breakpointPc: map-get($breakpoints, pc);
+}

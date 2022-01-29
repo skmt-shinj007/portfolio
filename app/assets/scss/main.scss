@@ -1,0 +1,12 @@
+/**
+ * 各scssファイルを集約するファイルです。
+ */
+
+// 変数・関数用ファイル
+@import 'variables';
+@import 'modules';
+
+// リセット用スタイル
+@import 'foundation/reset';
+// サイトのベーススタイル
+@import 'foundation/base';

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="993.491" height="1210.959" viewBox="0 0 993.491 1210.959">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0d7377"/>
+      <stop offset="1" stop-color="#073a3c"/>
+    </radialGradient>
+  </defs>
+  <g id="グループ_4" data-name="グループ 4" transform="translate(-91.608 -41.346) rotate(11)">
+    <g id="グループ_1" data-name="グループ 1" transform="matrix(0.998, 0.07, -0.07, 0.998, 81.268, -150.549)">
+      <path id="多角形_1" data-name="多角形 1" d="M255,0,510,237H0Z" transform="translate(503.002 276.424) rotate(-41)" fill="url(#radial-gradient)"/>
+      <path id="多角形_2" data-name="多角形 2" d="M255,0,510,237H0Z" transform="translate(851.389 287.363) rotate(139)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="グループ_2" data-name="グループ 2" transform="translate(1016.387 910.6) rotate(-172)">
+      <path id="多角形_1-2" data-name="多角形 1" d="M255,0,510,237H0Z" transform="translate(576.814 680.455) rotate(-139)" fill="url(#radial-gradient)"/>
+      <path id="多角形_2-2" data-name="多角形 2" d="M255,0,510,237H0Z" transform="translate(155.487 -0.001) rotate(41)" fill="url(#radial-gradient)"/>
+    </g>
+    <g id="グループ_3" data-name="グループ 3" transform="translate(316.999 502.147) rotate(4)">
+      <path id="多角形_1-3" data-name="多角形 1" d="M255,0,510,237H0Z" transform="translate(198.323 334.591) rotate(-41)" fill="url(#radial-gradient)"/>
+      <path id="多角形_2-3" data-name="多角形 2" d="M255,0,510,237H0Z" transform="translate(546.609 345.633) rotate(139)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

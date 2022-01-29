@@ -3,9 +3,13 @@
   "scripts": {
     "dev": "nuxi dev",
     "build": "nuxi build",
+    "typecheck": "nuxi typecheck",
     "start": "node .output/server/index.mjs"
   },
   "devDependencies": {
     "nuxt3": "latest"
+  },
+  "dependencies": {
+    "sass": "^1.49.0"
   }
 }

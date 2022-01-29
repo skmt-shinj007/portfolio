@@ -1,0 +1,34 @@
+/**
+ * sass関数
+ */
+
+@import 'variables';
+
+// color
+@function color($key) {
+  @return map-get($color, $key);
+}
+
+// aspect ratio (アスペクト比)
+@function aspect($key) {
+  @return map-get($aspect, $key);
+}
+
+// interval (margin or padding)
+@function interval($pixel) {
+  @return $base-rem * $pixel;  // 1/2rem × $pixel
+}
+
+// pixel (固定値)
+@function pixel($pixel) {
+  @return $base-pixel * $pixel;  // 8px × $pixel
+}
+
+/**
+ * font size
+ * @param 指定したいピクセル数を入力
+ * @return 単位をremに変換し出力
+ */
+@function font($pixel) {
+  @return ($pixel / $base-font) * 1rem;
+}
